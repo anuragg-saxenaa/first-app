@@ -1,4 +1,4 @@
-package com.mycode.anurag;
+package com.mycode.anurag.controller;
 
 import com.mycode.anurag.domain.Movie;
 import com.sun.javafx.scene.control.skin.VirtualFlow;
@@ -14,7 +14,7 @@ import java.util.List;
  */
 @RestController
 @RequestMapping(value = "/api/v1/movies/")
-public class controller {
+public class MovieController {
 
 
    @RequestMapping(value = "/")
